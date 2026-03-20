@@ -1,5 +1,5 @@
 name: Run Test Build
-on: push
+on: workflow_dispatch
 jobs:
   Lint-and-Build:
     runs-on: ubuntu-latest
