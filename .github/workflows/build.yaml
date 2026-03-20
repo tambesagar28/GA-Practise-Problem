@@ -17,7 +17,7 @@ jobs:
       - name: Build
         run: npm run build
   Deploy:
-    needs: Lint and Build
+    needs: Lint-and-Build
     runs-on: ubuntu-latest
     steps:
       - name: Code Checkout
