@@ -1,7 +1,7 @@
 name: Run Test Build
 on: push
 jobs:
-  Lint and Build:
+  Lint-and-Build:
     runs-on: ubuntu-latest
     steps:
       - name: Code Checkout
